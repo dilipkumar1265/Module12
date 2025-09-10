@@ -30,7 +30,19 @@ To write a Python program that:
 
 ## 📝 Program
 Add Code here
-
+```
+  from queue import LifoQueue
+  stack = LifoQueue(maxsize=4)
+  stack.put('a')
+  stack.put('b')
+  stack.put('c')
+  ifstack.full():
+  print("Stack isfull")
+  else:
+  print("Stack is not full")
+```
 ## Sample Input & Output
+![image](https://github.com/user-attachments/assets/461c38a5-f0cd-4873-acdb-9665923cc938)
 
 ## Result
+Thus, the program has been execueted successfully.
